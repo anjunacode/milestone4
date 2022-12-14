@@ -10,11 +10,11 @@
 
 body {
 
-	background-image: url(../images/chalkboard.jpg);
+	background-image: url(../images/site-wallpaper.png); 
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
     overflow-x: hidden !important;
 }
 
@@ -111,8 +111,8 @@ nav ul li:hover a{
 /* Hero image subtitle */
 
 .hero-text p {
-	font-family: Helvetica;
-    font-weight: 500;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-weight: 100;
 	font-size: 2.6em;
 	color: rgb(253, 253, 253);
   	text-align: center;
@@ -165,10 +165,10 @@ nav ul li:hover a{
 /* Footer section headers */
 
 .footer-text h3 {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	font-size: 2.3em;
+	font-family: "Bungee";
+	font-size: 2.1em;
 	text-align: left;
-	color: lightseagreen;
+	color: rgb(12, 246, 0);
 	padding: 5px 0px 5px 15px;
 }
 
@@ -230,7 +230,7 @@ nav ul li:hover a{
 }
 
 .divider {
-    color: lightseagreen;
+    color: rgb(12, 246, 0);
     font-size: 1.5em;
     line-height: 11px;
     float: left;
@@ -264,7 +264,7 @@ nav ul li:hover a{
 }
 
 .social-networks i {
-	color: lightseagreen;
+	color: rgb(12, 246, 0);
     font-size: 1.5em;
     margin-top: -20%;
 	margin-right: 0%;

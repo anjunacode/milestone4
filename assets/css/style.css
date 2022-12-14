@@ -61,6 +61,8 @@ nav ul li{
 
 nav ul li:hover{
     background-color: rgb(255, 247, 0);
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 nav ul li a{
@@ -166,7 +168,7 @@ nav ul li:hover a{
 
 .footer-text h3 {
 	font-family: "Bungee";
-	font-size: 2.1em;
+	font-size: 2.6em;
 	text-align: left;
 	color: rgb(12, 246, 0);
 	padding: 5px 0px 5px 15px;

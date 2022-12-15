@@ -202,6 +202,7 @@ section p {
 .footer-text {
 	margin-top: 8%;
 	margin-right: 30px;
+	margin-left: 2%;
 	padding: 10px 30px 30px 40px; 
 }
 
@@ -209,7 +210,8 @@ section p {
 /* Footer section headers */
 
 .footer-text h3 {
-	font-family: "Bungee";
+	font-family: "Helvetica";
+	font-weight: 800;
 	font-size: 2.6em;
 	text-align: left;
 	color: rgb(12, 246, 0);
@@ -222,8 +224,8 @@ section p {
 .footer-text p {
 	font-family: Helvetica;
     font-weight: 100;
-	font-size: 0.8em;
-	line-height: 20px;
+	font-size: 1.2em;
+	line-height: 22px;
 	letter-spacing: 0px;
 	text-align: left;
 	margin-top: -1%;
@@ -246,7 +248,7 @@ section p {
 	color: white;
 	font-family: Helvetica;
     font-weight: 100;
-	font-size: 0.8em;
+	font-size: 2em;
 	text-align: left;
 }
 
@@ -254,19 +256,20 @@ section p {
 /* Footer section lower privacy and page gold pillar lines */
 
 .footer-menu {
-    position: relative;
+	position: relative;
     justify-content: flex-start;
     margin-left: 45px;
     display: flex;
-    bottom: 10px; 
+    bottom: 5px;
     width: 100%;
-    font-family:Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 0.8em;
     font-weight: 100;
-    letter-spacing:0em;
-    line-height:1.1em;
-    color:#0000FF;
-    padding:1em;
+    letter-spacing: 0em;
+    line-height: 1.1em;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-bottom: 0%;
 }
 
 .privacy-left {
@@ -284,13 +287,25 @@ section p {
     float: left;
 }
 
+.divider {
+    color: rgb(12, 246, 0);
+    font-size: 1.5em;
+    line-height: 11px;
+    float: left;
+}
+
+.copyright-left {
+	color: rgb(255, 255, 255);
+	float: left;
+}
+
 .footer-menu a {
     color: white;
     text-decoration: none;
 }
 
 .footer-menu a:hover {
-    color: darkgoldenrod;
+    color: rgb(255, 247, 0);
 }
 
 
@@ -298,9 +313,8 @@ section p {
 
 .social-networks {
 	float: right;
-	margin-top: -30px;
-    margin-bottom: 10px;
-	margin-right: 1%;
+	margin-right: 3%;
+	margin-top: -2%;
 }
 
 .social-networks li {
@@ -310,9 +324,10 @@ section p {
 .social-networks i {
 	color: rgb(12, 246, 0);
     font-size: 1.5em;
-    margin-top: -20%;
-	margin-right: 0%;
-    padding: 5px 30px 10px 10px;
+    margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+    padding: 5px 25px 50px 10px;
 }
 
 
@@ -353,13 +368,4 @@ section p {
 
 /* Footer section copyright info */
 
-.center-footer-text p {
-	color: white;
-	font-family: Helvetica;
-    font-weight: 100;
-	font-size: 0.7em;
-    letter-spacing: 0.5px;
-	text-align: center;
-    margin-bottom: 10px;
-	padding: 100px 10px 60px 50px;
-}
+

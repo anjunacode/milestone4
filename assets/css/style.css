@@ -133,17 +133,15 @@ nav ul li:hover a{
 	font-family: Helvetica;
     font-weight: 600;
 	font-size: 2em;
-  	position: absolute;
-  	top: 90%;
-  	left: 50%;
   	transform: translate(-50%, -50%);
   	border: none;
   	outline: 0;
-  	display: inline-block;
+	float: right;
   	padding: 20px 60px;
   	color: rgb(1, 1, 1);
   	background-color: rgb(12, 246, 0);
   	text-align: center;
+	margin: -12% -5% 0 80%;
   	cursor: pointer;
 }
 

@@ -237,6 +237,23 @@ nav ul li:hover a{
 	float: left;
   	padding: 10% 5% 0% 0%;
 	margin: 26px 0 0 0;
+
+/* animates zoom on drop page image block 2 */
+   animation-name: image-zoom-two;
+   animation-duration: 5s;
+   animation-delay: 30ms;
+   animation-fill-mode: backwards;
+}
+
+/* creates zoom for hero image */
+@keyframes image-zoom-two {
+   from {
+	   transform: scale(1.2);
+   }
+
+   to {
+	   transform: scale(1);
+   }
 }
 
 

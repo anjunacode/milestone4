@@ -20,30 +20,19 @@ body {
 }
 
 
-/* Logo top left nav bar */
-
-#logo {
-	margin: 20px 0px 0px 50px;
-	float: left;
-	cursor: pointer;
-}
-
-
-/* The nav bar */
-
-#navmenu {
-    background-color: black;
-  	background-size: cover;
-
-}
-
-
 /* The nav bar size and color */
 
-nav{
+#navmenu {
   	width: 100vw;
-  	height: 70px;
-  	line-height: 50px;
+  	height: 18px;
+	line-height: 50px;
+}
+
+/* Logo top left nav bar */
+
+#nav-logo {
+	margin: 25px 0 0 50px;
+	cursor: pointer;
 }
 
 
@@ -51,8 +40,9 @@ nav{
 
 nav ul{
   	float: right;
-    margin-top: 10px;
+    margin-top: -40px;
   	margin-right: 50px;
+	margin-bottom: 10px;
 }
 
 nav ul li{
@@ -81,6 +71,9 @@ nav ul li:hover a{
 }
 
 
+
+
+
 /* The hero image */
 
 #hero-image {
@@ -88,6 +81,23 @@ nav ul li:hover a{
     position: static;
 	opacity: 100%;
   	background-size: cover;
+
+/* animates zoom on hero image */
+	animation-name: hero-image-zoom;
+	animation-duration: 5s;
+	animation-delay: 50ms;
+	animation-fill-mode: backwards;
+	}
+
+/* creates zoom for hero image */
+	@keyframes hero-image-zoom {
+	from {
+		transform: scale(1.03);
+	}
+
+	to {
+		transform: scale(1);
+	}
 }
 
 
@@ -193,6 +203,23 @@ nav ul li:hover a{
 	float: right;
   	padding: 10% 0 0 5%;
 	margin: 26px 0 0 0;
+
+	/* animates zoom on drop page image block 1 */
+	animation-name: image-zoom-one;
+	animation-duration: 5s;
+	animation-delay: 60ms;
+	animation-fill-mode: backwards;
+}
+
+/* creates zoom for drop page image block 1 */
+	@keyframes image-zoom-one {
+	from {
+		transform: scale(1.2);
+	}
+
+	to {
+		transform: scale(1);
+	}
 }
 
 /* First section on 'drop' page */
@@ -238,22 +265,22 @@ nav ul li:hover a{
   	padding: 10% 5% 0% 0%;
 	margin: 26px 0 0 0;
 
-/* animates zoom on drop page image block 2 */
-   animation-name: image-zoom-two;
-   animation-duration: 5s;
-   animation-delay: 30ms;
-   animation-fill-mode: backwards;
+	/* animates zoom on drop page image block 2 */
+	animation-name: image-zoom-two;
+	animation-duration: 5s;
+	animation-delay: 60ms;
+	animation-fill-mode: backwards;
 }
 
-/* creates zoom for hero image */
-@keyframes image-zoom-two {
-   from {
-	   transform: scale(1.2);
-   }
+/* creates zoom for drop page image block 2 */
+	@keyframes image-zoom-two {
+	from {
+		transform: scale(1.150);
+	}
 
-   to {
-	   transform: scale(1);
-   }
+	to {
+		transform: scale(1);
+	}
 }
 
 
